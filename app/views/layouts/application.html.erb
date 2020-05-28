@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Ejer1</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <link href="estilos/style.css" rel="stylesheet" type="text/css">
+
+
+  </head>
+
+  <body>
+
+    <h>ERION TECHNOLOGIES</h>
+
+    <a>Erion Technologies</a>
+    <a href="">Erion Technologies</a>
+
+    <img src="images/erion.png">
+
+    <p>AUTOMATIZACION Y CONTROL</p>
+    <p>En Erion, somos una comunidad de</p>
+
+    <ul>
+      <li>tecnólogos</li>
+      <li>pensadores</li>
+      <li>constructores</li>
+      <li>lideres</li>
+    </ul>
+
+    <p>trabajando juntos... </p>
+
+    <%= yield %>
+  </body>
+</html>
